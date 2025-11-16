@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Public MoC</title>
+<title>Consolidation</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -36,15 +36,14 @@
 <div class="header-meta">
 </div>
 </header>
-<h1 id="software-engineering" tabindex="-1">Software Engineering</h1>
-<ul>
-<li><a class="internal-link" target="" data-note-icon="undefined" href="/0-inbox/modern-code-editing/">Modern Code Editing</a></li>
-</ul>
-<h1 id="most-recent-musings" tabindex="-1">Most Recent Musings</h1>
-<ul>
-<li><a class="internal-link" target="" data-note-icon="undefined" href="/0-inbox/learning/">Learning</a></li>
-</ul>
+<p>This is the process of strengthening memory traces and storing them into long term memory.<br>
+Essentially, you're letting the new learning cook as you internalize it and go over it again and again to make sense of it. This is an active process that needs to be fostered and patience needs to be employed here since it takes time for new learning to fully consolidate</p>
+<p>When practicing something over and over in rapid fire, you're leaning on short term memory and very little mental effort is required. You show self-satisfying results and get a sense of quick improvement (i.e. <a class="internal-link" target="" data-note-icon="undefined" href="/1-projects/reading-making-it-stick/illusion-of-mastery/">Illusion of mastery</a>). However, that doesn't do much in terms of solidifying your learning.<br>
+Your performance in the moment is not and indication of durable learning. It's best to let the memory recede a little and make the effort to retrieve it in order for the learning to be more lasting (i.e. <a class="internal-link" target="" data-note-icon="undefined" href="/1-projects/reading-making-it-stick/spaced-repetition/">Spaced repetition</a>).</p>
 </main>
+<script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
+<script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
+<script defer="defer">TIMESTAMP_FORMAT="MMM dd, yyyy h:mm a",document.querySelectorAll(".human-date").forEach((function(e){date=e.getAttribute("data-date")||e.innerText,parsed_date=luxon.DateTime.fromISO(date),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromSQL(date)),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)}))</script>
 <script>lucide.createIcons({attrs:{class:["svg-icon"]}})</script>
 </body>
 </html>
